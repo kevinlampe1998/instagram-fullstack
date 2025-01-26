@@ -1,0 +1,37 @@
+.header {
+    background: #000;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 1px solid #555;
+    width: 100%;
+}
+
+.displayNone {
+    display: none;
+}
+
+.noHeader {
+    margin: auto;
+}
+
+.default {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.instagramLogo {
+    margin: 0 15px;
+}
+
+.heartSendSection {
+    margin-right: 10px;
+}
+
+.heartSendSection > * {
+    margin: 0 10px;
+}
