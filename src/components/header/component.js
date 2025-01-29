@@ -17,7 +17,7 @@ const Header = () => {
 
                 <div className={styles.default}>
                     <Image
-                    className={styles.instagramLogo}
+                        className={styles.instagramLogo}
                         src='/pictures/instagram-logo.png'
                         width={120}
                         height={40}
